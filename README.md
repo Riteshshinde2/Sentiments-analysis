@@ -1,13 +1,20 @@
 # Sentiments-analysis
 
-The YouTube sentiments analysis encompassed a vast dataset consisting of 691,402 rows across 4 columns. Within this data, sentiments were categorized into three main classes: positive, neutral, and negative. The distribution revealed that there were 300,426 instances classified as positive, 284,884 instances classified as neutral, and 106,066 instances classified as negative, showcasing a varied spectrum of emotional responses from users.
 
-The exploration into positive sentiment analysis unveiled a prevailing use of words such as "love," "best," "amazing," "fun," "great," and "awesome." This suggests a widespread expression of admiration and positivity among users towards various aspects of content on YouTube.
+The dataset for the YouTube analysis comprises 691,402 rows and 4 columns. Here are the column names and their descriptions:
 
-Conversely, the negative sentiment analysis showcased a dominant use of words like "hate," "fake," "stupid," "bad," "fucking," and "idiot." This indicates a strong sense of dissatisfaction and frustration expressed by users towards certain content or experiences on the platform.
+video_id: This column contains the unique identifiers for each video.
 
-Moreover, the analysis extended to neutral sentiments, where words such as "think," "going," "make," "one," "want," and "song" emerged prominently. This suggests a diverse range of observations and thoughts expressed by users without a distinct leaning towards positivity or negativity.
 
-Further investigation into the most used words in comment text highlighted common terms such as "you," "the," "to," "and," "of," "is," "that," "in," "it," and "for." These words dominated the vocabulary, emphasizing their widespread usage across various comments.
+comment_text: This column stores the text of the comments made by users on the videos.
 
-In summary, the analysis provided valuable insights into the sentiments expressed by users on YouTube, reflecting a spectrum of emotions ranging from positive appreciation to negative criticism and neutral observations.
+
+likes: This column indicates the number of likes received for each comment.
+
+
+replies: This column denotes the number of replies received for each comment.
+
+
+The analysis aims to extract insights from the YouTube data using Python. It encompasses various tasks such as data collection, cleaning, visualization, sentiment analysis, . This comprehensive approach assists creators in optimizing their strategies for content creation and engagement on the platform.
+
+
